@@ -6,7 +6,7 @@
    Complete the TODOs below to style the journal.
    Refer to instructions for detailed guidance.
    
-   Author: [Your Name Here]
+   Author: [Joe Turner]
    Date: 02/02/2026
 ============================================ */
 
@@ -22,7 +22,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
+    background-color: white;
+    color: blue;
 }
 
 /* ============================================
@@ -40,10 +41,8 @@ body {
     width: 960px;
     margin: 20px auto;
     background: white;
-    display: flex;
-    justify-content: center;
     padding: 20px;
-    border-radius: 5px
+    border: 10px solid #4caf50;
 }
 
 /* ============================================
@@ -55,11 +54,27 @@ body {
 
 #header-box {
     /* YOUR CODE HERE */
-    background-color: #4a90e2;
-    color: rgb(10, 10, 181);
+    background-color: lightgreen;
+    color: darkblue;
     padding: 20px;
     text-align: center;
+    border: 5px solid red;
+    margin-bottom: 25px
 }
+
+#header-box h1  {
+    font-size: 3em;
+    font-size: 50px;
+}
+
+.tagline    {
+    margin-top: 20px;
+    color: grey;
+    font-size: 20px;
+    font-style: italic;
+    text-align: right;
+}
+
 
 /* ============================================
    STEP 4: CREATE TWO-COLUMN LAYOUT
@@ -73,7 +88,9 @@ body {
     float: left;
     width: 25%;
     padding: 20px;
-    background-color: #f0f0f0;
+    background-color: teal;
+    color: white;
+    border-radius: 5px;
 }
 
 #content-area {
@@ -81,6 +98,12 @@ body {
     float: left;
     width: 75%;
     padding: 20px;
+}
+
+#sidebar h2 {
+    font-size: 20px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid white;
 }
 
 /* ============================================
