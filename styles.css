@@ -106,6 +106,16 @@ body {
     border-bottom: 5px solid white;
 }
 
+.friends-list   {
+    list-style: none;
+}
+
+.friends-list li {
+    padding: 15px;
+    border-bottom: 2px solid grey;
+    font-size: 20px;
+}
+
 /* ============================================
    STEP 5: CLEARFIX FOR PARENT COLLAPSE
    ============================================
@@ -130,24 +140,33 @@ body {
     background-color: #fff;
     margin-bottom: 20px;
     padding: 15px;
-    border: 1px solid #ddd;
+    border: 5px solid #ddd;
     border-radius: 5px;
+    overflow: hidden;
 }
 
 .entry-image {
     /* YOUR CODE HERE */
     /* Add picture frame effect */
-    float: left;
-    margin-right: 15px;
-    border: 12px solid #fff;
+    float: right;
+    width: 250px;
+    height: 250px;
+    object-fit: contain;
+
+    margin-left: 15px;
+    margin-bottom: 10px;
+    border: 12px solid white;
     box-shadow: 0 0 0 2px #333;
     padding: 8px;
     background: white;
 }
 
 .entry-title {
-    color: #333;
-    margin-bottom: 10px;
+    color: teal;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 3px solid lightblue;
+    font-size: 30px;
 }
 
 .entry-date {
@@ -162,7 +181,7 @@ body {
 
 @media (max-width: 768px) {
     /* YOUR CODE HERE */
-    main-container {
+    #main-container {
     width: 100%;
     margin: 0;
     }
